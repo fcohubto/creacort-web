@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow"><!-- link de revisión: quitar al pasar al dominio real -->
+  <title>Creacort — Fabricación, reparación y afilado de herramientas de corte</title>
+  <meta name="description" content="Fabricación, reparación y afilado de fresas y herramientas de corte HM y HSS. Fabricación CNC de fresas de Ø 0,5 a 150 mm. San Bernardo, Santiago. Desde 1988.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Saltar al contenido</a>
+
+<!-- ══ NAV ══ -->
+<nav class="nav" id="nav" aria-label="Navegación principal">
+  <div class="nav__inner container">
+    <a href="#inicio" class="nav__logo" aria-label="Creacort Herramientas — ir al inicio">
+      <img src="assets/images/creacort-wordmark.png" alt="Creacort Herramientas"
+           class="nav__logo-img" width="1314" height="187">
+    </a>
+    <button class="nav__toggle" id="nav-toggle"
+      aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+    <ul class="nav__menu" id="nav-menu" role="list">
+      <li><a href="#nosotros"  class="nav__link">Nosotros</a></li>
+      <li><a href="#servicios" class="nav__link">Servicios</a></li>
+      <li><a href="#catalogo"  class="nav__link">Catálogo</a></li>
+      <li><a href="#maquinas"  class="nav__link">Máquinas</a></li>
+      <li><a href="#cotizacion" class="btn btn--sm btn--orange">Solicitar cotización</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="inicio">
+  <div class="hero__inner container">
+    <div class="hero__content">
+      <span class="section-tag hero__tag">Despacho a todo Chile</span>
+      <h1 class="hero__title">
+        Proveedor estratégico de tus
+        <em>herramientas de corte</em>
+      </h1>
+      <p class="hero__body">
+        Fabricación, reparación y afilado de fresas HM y HSS, con asesoría técnica
+        en cada etapa.
+      </p>
+      <div class="hero__actions">
+        <a href="#cotizacion" class="btn btn--primary">Solicitar cotización</a>
+        <a href="#catalogo"   class="btn btn--outline">Ver catálogo</a>
+      </div>
+      <ul class="hero__micro" role="list">
+        <li>Diagnóstico sin costo</li>
+        <li>Respuesta en 24–48 h</li>
+      </ul>
+
+      <dl class="hero__meta">
+        <div>
+          <dt>Desde</dt>
+          <dd>1988</dd>
+        </div>
+        <div>
+          <dt>Fabricación CNC</dt>
+          <dd>Ø 0,5 – 150 mm</dd>
+        </div>
+        <div>
+          <dt>Mecanizado</dt>
+          <dd>hasta 62 HRC</dd>
+        </div>
+      </dl>
+    </div>
+
+    <figure class="hero__visual hero__img-wrap img-frame">
+      <img src="assets/images/operativo.jpg" alt="Operador de Creacort en la afiladora CNC de 5 ejes, en el taller de San Bernardo" width="1600" height="1056" fetchpriority="high">
+      <figcaption class="img-frame__label">Afiladora CNC en el taller</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══ NOSOTROS ══ -->
+<section class="nosotros section--light" id="nosotros">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Quiénes somos</span>
+      <h2>Fabricando herramienta de corte en San Bernardo desde 1988</h2>
+    </div>
+    <div class="nosotros__inner">
+      <div class="nosotros__prose">
+        <p>
+          Creacort nace en <strong>1988</strong> de la mano de
+          <strong>Leonardo Orellana Valdenegro</strong>. Fabricamos, reparamos y
+          afilamos herramientas de corte en metal duro (HM) y acero rápido (HSS),
+          con <strong>supervisión técnica</strong> en todo el proceso.
+        </p>
+        <p>
+          Pioneros en Chile en importar afiladoras de primera línea; hoy fabricamos
+          en <strong>CNC</strong> fresas de hasta 150 mm de largo de hélice.
+        </p>
+      </div>
+
+      <!-- Cifras: reemplazan la franja de stats que iba después de Servicios (1/10).
+           dt va antes de dd por semántica; column-reverse muestra el número arriba. -->
+      <dl class="cifras">
+        <div class="cifra">
+          <dt class="cifra__label">años fabricando</dt>
+          <dd class="cifra__num">+35</dd>
+        </div>
+        <div class="cifra">
+          <dt class="cifra__label">fabricación CNC</dt>
+          <dd class="cifra__num">Ø 0,5–150<span class="cifra__unit">mm</span></dd>
+        </div>
+        <div class="cifra">
+          <dt class="cifra__label">afiladoras universales</dt>
+          <dd class="cifra__num">4</dd>
+        </div>
+        <div class="cifra">
+          <dt class="cifra__label">respuesta a cotizaciones</dt>
+          <dd class="cifra__num">24–48<span class="cifra__unit">h</span></dd>
+        </div>
+      </dl>
+    </div>
+
+    <!-- Misión y visión: se mantienen por pedido del cliente, en formato secundario. -->
+    <div class="principios">
+      <div class="principio">
+        <h3>Misión</h3>
+        <p>
+          Máxima eficiencia y calidad en las soluciones más complejas de nuestros
+          clientes: fresas de metal duro desde 0,5 mm de diámetro, esféricas, planas
+          y herramientas especiales, con asesoría técnica en cada etapa de
+          fabricación y afilado.
+        </p>
+      </div>
+      <div class="principio">
+        <h3>Visión</h3>
+        <p>
+          Ser el proveedor estratégico de tus herramientas de corte en metal duro,
+          con una alianza basada en experiencia y asesoría técnica de calidad.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICIOS ══ -->
+<!-- Claro desde el 2/10. Textos acotados para que las 4 cards midan lo mismo:
+     título de una línea, cuerpo de ~2 líneas, 3 características cortas.
+     data-servicio = value del <select> de cotización (preselección en main.js). -->
+<section class="servicios" id="servicios">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="section-tag">Capacidad técnica</span>
+      <h2>Lo que hacemos,<br>y con qué precisión</h2>
+      <p>El detalle técnico que necesitas para evaluar si Creacort es el proveedor que buscas.</p>
+    </div>
+    <div class="servicios__grid">
+
+      <article class="servicio-card">
+        <div class="servicio-card__num" aria-hidden="true">01</div>
+        <h3 class="servicio-card__title">Fabricación HM y HSS</h3>
+        <p class="servicio-card__body">
+          Fresas planas, esféricas y especiales en metal duro (HM) y acero rápido (HSS).
+        </p>
+        <ul class="servicio-card__specs" aria-label="Características">
+          <li>Desde Ø 0,5 mm</li>
+          <li>Planas, esféricas y especiales</li>
+          <li>Sobre plano o muestra</li>
+        </ul>
+        <a href="#cotizacion" class="btn btn--outline btn--sm" data-servicio="fabricacion">Cotizar fabricación</a>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-card__num" aria-hidden="true">02</div>
+        <h3 class="servicio-card__title">Reparación</h3>
+        <p class="servicio-card__body">
+          Recuperamos herramientas desgastadas o te decimos si conviene fabricar de nuevo.
+        </p>
+        <ul class="servicio-card__specs" aria-label="Características">
+          <li>Diagnóstico sin costo</li>
+          <li>Respuesta en 24–48 h</li>
+          <li>Fresas, brocas y discos</li>
+        </ul>
+        <a href="#cotizacion" class="btn btn--outline btn--sm" data-servicio="reparacion">Cotizar reparación</a>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-card__num" aria-hidden="true">03</div>
+        <h3 class="servicio-card__title">Afilado de precisión</h3>
+        <p class="servicio-card__body">
+          Rectificado y afilado de fresas HM y HSS, con control dimensional post-proceso.
+        </p>
+        <ul class="servicio-card__specs" aria-label="Características">
+          <li>Machos, modulares y creadoras</li>
+          <li>Discos, punzones y sufrideras</li>
+          <li>En series o por unidad</li>
+        </ul>
+        <a href="#cotizacion" class="btn btn--outline btn--sm" data-servicio="afilado">Cotizar afilado</a>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-card__num" aria-hidden="true">04</div>
+        <h3 class="servicio-card__title">Fabricación CNC</h3>
+        <p class="servicio-card__body">
+          Fresas de metal duro con geometrías complejas, en series pequeñas o a pedido.
+        </p>
+        <ul class="servicio-card__specs" aria-label="Características">
+          <li>Ø 0,5 a 150 mm</li>
+          <li>Largo de hélice hasta 150 mm</li>
+          <li>Afiladora CNC de 5 ejes</li>
+        </ul>
+        <a href="#cotizacion" class="btn btn--outline btn--sm" data-servicio="fabricacion-cnc">Cotizar CNC</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CATÁLOGO ══ -->
+<section class="catalogo section--light" id="catalogo">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Fabricaciones a medida</span>
+      <h2>Herramientas de corte fabricadas a medida</h2>
+      <p>Ejemplos de fabricaciones y afilados reales. Cada herramienta se produce sobre plano o muestra según tu requerimiento — envíanos el tuyo y lo cotizamos.</p>
+    </div>
+
+    <!-- CONTENIDO REAL — extraído de las publicaciones de Leonardo Orellana en LinkedIn
+         (fabricaciones documentadas por Creacort, 2019–2025). Fotos: capturas de esas
+         publicaciones, resolución de referencia — pedir originales a Leo para producción.
+         Las 3 cards de servicio sin foto se retiraron el 2/10 (pedido de Francisco). -->
+    <!-- Filtro por familia + búsqueda libre (revisión 2/10). Sin JS, todo visible
+         y los controles quedan ocultos (main.js les quita el hidden). -->
+    <div class="catalogo__tools" data-catalogo-tools hidden>
+      <div class="filtros" role="group" aria-label="Filtrar por familia">
+        <button type="button" class="filtro" data-filtro="todo" aria-pressed="true">Todo</button>
+        <button type="button" class="filtro" data-filtro="fresas-hm" aria-pressed="false">Fresas HM</button>
+        <button type="button" class="filtro" data-filtro="forma" aria-pressed="false">Forma y especiales</button>
+        <button type="button" class="filtro" data-filtro="hss" aria-pressed="false">Acero rápido HSS</button>
+      </div>
+      <div class="buscador">
+        <label for="catalogo-buscar" class="visually-hidden">Buscar en el catálogo</label>
+        <input type="search" id="catalogo-buscar" class="buscador__input" placeholder="Buscar: esférica, Ø12, Z=4…" autocomplete="off">
+      </div>
+    </div>
+    <p class="catalogo__estado" id="catalogo-estado" aria-live="polite" hidden></p>
+
+    <div class="catalogo__grid">
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-forma-t-25.jpg" alt="Fresa de forma tipo T en metal duro, Ø25 × 14 mm" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de forma</span>
+          <h3 class="producto-card__name">Fresa de forma tipo T</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Medida</dt><dd>Ø25 × 14 mm</dd></div>
+            <div class="spec-row"><dt>Perfil</dt><dd>Ranura tipo T</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-t-doble-ranura.jpg" alt="Fresa de forma tipo T de doble ranura, Ø12 mm Z=4" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de forma</span>
+          <h3 class="producto-card__name">Fresa tipo T doble ranura</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Diámetro</dt><dd>Ø12 mm · Z=4</dd></div>
+            <div class="spec-row"><dt>Doble Ø</dt><dd>12 – 3,2 mm</dd></div>
+            <div class="spec-row"><dt>Cuello</dt><dd>Ø10 mm</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-bola-12.jpg" alt="Fresa esférica de metal duro, Ø12 mm" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa esférica de bola</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Diámetro</dt><dd>Ø12 mm</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Radio esférico</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-micrograno-12.jpg" alt="Fresa de metal duro micrograno, Ø12 mm, para acero templado" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa de micrograno</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>HM micrograno</dd></div>
+            <div class="spec-row"><dt>Diámetro</dt><dd>Ø12 mm</dd></div>
+            <div class="spec-row"><dt>Aplicación</dt><dd>Acero templado ≤ 62 HRC</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-extralarga-18x220.jpg" alt="Fresa especial de metal duro extra larga, Ø18 × 220 mm, Z=4" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Herramientas especiales</span>
+          <h3 class="producto-card__name">Fresa especial extra larga</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Longitud</dt><dd>Ø18 × 220 mm · Z=4</dd></div>
+            <div class="spec-row"><dt>Corte</dt><dd>Ø10 × 40 mm</dd></div>
+            <div class="spec-row"><dt>Cuello</dt><dd>Ø9 × 30 mm · cono 5°</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-inserto-esferico.jpg" alt="Fresa de metal duro con inserto de punta esférica" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Herramientas especiales</span>
+          <h3 class="producto-card__name">Fresa con inserto esférico</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Inserto esférico</dd></div>
+            <div class="spec-row"><dt>Tipo</dt><dd>Herramienta especial</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-plana-25-z3.jpg" alt="Fresa plana de metal duro, Ø25 mm, Z=3" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa plana Z=3</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Diámetro</dt><dd>Ø25 mm</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=3 · punta plana</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-635-z2.jpg" alt="Fresa de metal duro, Ø6,35 mm, Z=2" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa Ø6,35 mm Z=2</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Diámetro</dt><dd>Ø6,35 mm</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=2</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <!-- Piezas de referencia (fotos aportadas por Leo 31/8). Fondo blanco = imagen
+           referencial del tipo de herramienta; las de taller son fabricaciones propias. -->
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-plana-z2.jpg" alt="Fresa integral plana de metal duro, Z=2" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa integral plana Z=2</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=2</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Plana</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-plana-z3-int.jpg" alt="Fresa integral plana de metal duro, Z=3" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa integral plana Z=3</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=3</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Plana</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-plana-z4.jpg" alt="Fresa integral plana de metal duro, Z=4, detalle del filo" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa integral plana Z=4</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=4</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Plana</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="fresas-hm" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-esferica-z4.jpg" alt="Fresa integral esférica de metal duro, Z=4, en la afiladora" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de metal duro</span>
+          <h3 class="producto-card__name">Fresa integral esférica Z=4</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=4</dd></div>
+            <div class="spec-row"><dt>Punta</dt><dd>Radio esférico</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-biseladora-27.jpg" alt="Fresa biseladora de 27° en metal duro, montada en la afiladora" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Herramientas de forma</span>
+          <h3 class="producto-card__name">Fresa biseladora 27°</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Ángulo</dt><dd>27°</dd></div>
+            <div class="spec-row"><dt>Uso</dt><dd>Biselado / chaflán</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="forma" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/escariador-z6.jpg" alt="Escariador helicoidal Z=6, detalle de los filos" loading="lazy">
+          <span class="producto-card__badge">HM</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Escariadores</span>
+          <h3 class="producto-card__name">Escariador helicoidal Z=6</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Metal duro (HM)</dd></div>
+            <div class="spec-row"><dt>Filos</dt><dd>Z=6</dd></div>
+            <div class="spec-row"><dt>Hélice</dt><dd>Escariado de precisión</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="hss" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/fresa-tres-cortes.jpg" alt="Fresa de disco de tres cortes con dentado alternado" loading="lazy">
+          <span class="producto-card__badge">HSS</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Fresas de disco</span>
+          <h3 class="producto-card__name">Fresa de tres cortes</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Acero rápido (HSS)</dd></div>
+            <div class="spec-row"><dt>Dentado</dt><dd>Alternado</dd></div>
+            <div class="spec-row"><dt>Uso</dt><dd>Ranurado y planeado lateral</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="hss" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/disco-sierra-hss.jpg" alt="Disco de sierra HSS de dentado fino" loading="lazy">
+          <span class="producto-card__badge">HSS</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Discos de sierra</span>
+          <h3 class="producto-card__name">Disco de sierra HSS</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Acero rápido (HSS)</dd></div>
+            <div class="spec-row"><dt>Dentado</dt><dd>Fino</dd></div>
+            <div class="spec-row"><dt>Uso</dt><dd>Corte de metales</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+      <article class="producto-card" data-cat="hss" data-servicio="fabricacion">
+        <figure class="producto-card__img-wrap img-frame">
+          <img src="assets/catalogo/brocas-hss.jpg" alt="Juego de brocas helicoidales de acero rápido" loading="lazy">
+          <span class="producto-card__badge">HSS</span>
+        </figure>
+        <div class="producto-card__body">
+          <span class="producto-card__cat">Brocas</span>
+          <h3 class="producto-card__name">Brocas helicoidales HSS</h3>
+          <dl class="producto-card__specs">
+            <div class="spec-row"><dt>Material</dt><dd>Acero rápido (HSS)</dd></div>
+            <div class="spec-row"><dt>Tipo</dt><dd>Helicoidal</dd></div>
+            <div class="spec-row"><dt>Servicio</dt><dd>Fabricación y reafilado</dd></div>
+          </dl>
+          <a href="#cotizacion" class="btn btn--outline btn--sm btn--full">Cotizar esta pieza</a>
+        </div>
+      </article>
+
+
+
+
+      <article class="producto-card producto-card--custom" data-servicio="especial">
+        <div class="producto-card__custom-content">
+          <span class="producto-card__custom-icon" aria-hidden="true">+</span>
+          <h3 class="producto-card__custom-title">¿No encuentras lo que buscas?</h3>
+          <p class="producto-card__custom-body">Fabricamos herramientas especiales a medida, sobre plano o muestra. Describe tu necesidad y te respondemos con un presupuesto.</p>
+          <a href="#cotizacion" class="btn btn--orange btn--sm">Consultar herramienta especial</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ MÁQUINAS ══ -->
+<section class="galeria" id="maquinas">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Nuestras máquinas</span>
+      <h2>Cuatro afiladoras universales</h2>
+      <p>Pioneros en Chile en importar máquinas de primera línea para afilado y fabricación de herramientas de corte.</p>
+    </div>
+    <div class="galeria__grid">
+
+      <article class="galeria-card">
+        <figure class="galeria-card__img-wrap img-frame img-frame--fit-contain">
+          <img src="assets/maquinas/afiladora-cnc.jpg" alt="Afiladora CNC de 5 ejes TE5 TOP con control Siemens" loading="lazy">
+          <span class="galeria-card__industry">Taiwán</span>
+        </figure>
+        <div class="galeria-card__body">
+          <h3 class="galeria-card__title">Afiladora CNC</h3>
+          <p class="galeria-card__desc">Fabricación de fresas de Ø 0,5 a 150 mm, con largo de hélice de hasta 150 mm. Geometrías complejas y herramientas especiales.</p>
+          <span class="galeria-card__tag">Fabricación y afilado</span>
+        </div>
+      </article>
+
+      <article class="galeria-card">
+        <figure class="galeria-card__img-wrap img-frame img-frame--fit-contain">
+          <img src="assets/maquinas/afiladora-albula.jpg" alt="Afiladora universal Albula, Hispano-Suiza (Suiza)" loading="lazy">
+          <span class="galeria-card__industry">Hispano-Suiza</span>
+        </figure>
+        <div class="galeria-card__body">
+          <h3 class="galeria-card__title">Afiladora Albula</h3>
+          <p class="galeria-card__desc">Afiladora universal de precisión para fresas y herramientas de corte.</p>
+          <span class="galeria-card__tag">Afilado universal</span>
+        </div>
+      </article>
+
+      <article class="galeria-card">
+        <figure class="galeria-card__img-wrap img-frame img-frame--fit-contain">
+          <img src="assets/maquinas/afiladora-elite.jpg" alt="Afiladora universal Elite (España) para fresas HM y HSS" loading="lazy">
+          <span class="galeria-card__industry">España</span>
+        </figure>
+        <div class="galeria-card__body">
+          <h3 class="galeria-card__title">Afiladora Elite</h3>
+          <p class="galeria-card__desc">Afiladora universal para fresas HM y HSS.</p>
+          <span class="galeria-card__tag">Afilado universal</span>
+        </div>
+      </article>
+
+      <article class="galeria-card">
+        <figure class="galeria-card__img-wrap img-frame img-frame--fit-contain">
+          <img src="assets/maquinas/afiladora-pp600.jpg" alt="Afiladora universal PP-600 (Taiwán) en el taller de Creacort" loading="lazy">
+          <span class="galeria-card__industry">Taiwán</span>
+        </figure>
+        <div class="galeria-card__body">
+          <h3 class="galeria-card__title">Afiladora PP-600</h3>
+          <p class="galeria-card__desc">Afiladora universal para fresas y herramientas de corte.</p>
+          <span class="galeria-card__tag">Afilado universal</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CLIENTES ══ -->
+<section class="clientes section--light" id="clientes">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Clientes</span>
+      <h2>Herramienta de corte para la industria chilena</h2>
+      <p>Fabricamos y afilamos para plantas de minería, plásticos, industria eléctrica y vidrio.</p>
+    </div>
+
+    <!-- Testimonios reales (3): BTicino confirmado por Leo (28/9); SIOM e Indefor
+         llegaron el 1/10. Textos fieles al original, solo corrección ortográfica.
+         Indefor publicado como extracto con […] (aprobado por Francisco 1/10) para
+         no inflar la altura del track; texto completo en project-continuity.md.
+         Orden: SIOM primero por el dato cuantificado (50 %). No se publican
+         testimonios sin autor real. -->
+    <div class="testimonios" data-carousel role="region" aria-roledescription="carrusel" aria-label="Testimonios de clientes">
+      <span class="testimonios__mark" aria-hidden="true">&ldquo;</span>
+
+      <div class="testimonios__track">
+        <figure class="testimonio">
+          <blockquote class="testimonio__quote">
+            Excelente servicio y apoyo técnico. Entregan soluciones personalizadas y
+            enfocadas a la necesidad de cada trabajo. Destaco la ocasión en que nos
+            sugirieron una herramienta fabricada a medida, lo cual significó una mejora
+            del 50&nbsp;% en nuestros procesos productivos.
+          </blockquote>
+          <figcaption class="testimonio__by">
+            <span class="testimonio__name">Iran Cubillan</span>
+            <span class="testimonio__role">Supervisor de Mecanizado, SIOM SpA</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonio">
+          <blockquote class="testimonio__quote">
+            Llevamos más de 10 años trabajando con la empresa de Leonardo Orellana
+            […] y durante todo este tiempo hemos mantenido una excelente relación
+            comercial. Destacamos su compromiso, responsabilidad, calidad en sus
+            productos y buena disposición para atender nuestros requerimientos.
+          </blockquote>
+          <figcaption class="testimonio__by">
+            <span class="testimonio__name">Daniel Ibarra</span>
+            <span class="testimonio__role">Indefor SpA</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonio">
+          <blockquote class="testimonio__quote">
+            La precisión y durabilidad de las herramientas fabricadas por Creacort
+            mejoraron notablemente nuestros tiempos de producción, facilitando las
+            tareas más exigentes.
+          </blockquote>
+          <figcaption class="testimonio__by">
+            <span class="testimonio__name">Rodrigo Pérez</span>
+            <span class="testimonio__role">Gerente Comercial, BTicino</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="testimonios__nav">
+        <button class="testimonios__arrow" type="button" data-carousel-prev aria-label="Testimonio anterior">&lsaquo;</button>
+        <div class="testimonios__dots">
+          <button class="testimonios__dot" type="button" aria-label="Testimonio 1 de 3"></button>
+          <button class="testimonios__dot" type="button" aria-label="Testimonio 2 de 3"></button>
+          <button class="testimonios__dot" type="button" aria-label="Testimonio 3 de 3"></button>
+        </div>
+        <button class="testimonios__arrow" type="button" data-carousel-next aria-label="Testimonio siguiente">&rsaquo;</button>
+      </div>
+    </div>
+
+    <!-- Logos reales en monocromo (revisión 2/10), descargados de los sitios de cada
+         empresa y pasados a grafito #5C554D; originales en Clientes/Creacort/logos-clientes/.
+         SIOM y Tecmaplástico sin logo disponible en la web: quedan como nombre hasta
+         que Leo los envíe. main.js duplica la lista para la cinta animada. -->
+    <div class="clientes__logos" data-marquee>
+      <ul class="clientes__track" role="list" aria-label="Empresas que confían en Creacort">
+        <li class="cliente-logo"><img class="cliente-logo__img" src="assets/clientes/weir.svg" alt="Weir Minerals" width="332" height="104"></li>
+        <li class="cliente-logo"><img class="cliente-logo__img" src="assets/clientes/bticino.svg" alt="BTicino" width="266" height="73"></li>
+        <li class="cliente-logo cliente-logo--texto">SIOM</li>
+        <li class="cliente-logo"><img class="cliente-logo__img cliente-logo__img--indefor" src="assets/clientes/indefor.png" alt="Indefor" width="440" height="86"></li>
+        <li class="cliente-logo"><img class="cliente-logo__img" src="assets/clientes/cristalerias-chile.svg" alt="Cristalerías de Chile" width="1360" height="194"></li>
+        <li class="cliente-logo"><img class="cliente-logo__img cliente-logo__img--bajo" src="assets/clientes/hoffens.png" alt="Plásticos Hoffens" width="568" height="108"></li>
+        <li class="cliente-logo cliente-logo--texto">Tecmaplástico</li>
+        <li class="cliente-logo"><img class="cliente-logo__img cliente-logo__img--alto" src="assets/clientes/treulen.png" alt="Treulen Maestranza" width="458" height="242"></li>
+        <li class="cliente-logo"><img class="cliente-logo__img cliente-logo__img--bajo" src="assets/clientes/protema.png" alt="Protema" width="399" height="59"></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ COTIZACIÓN ══ -->
+<section class="cotizacion section--dark" id="cotizacion">
+  <div class="container">
+    <div class="cotizacion__inner">
+
+      <div class="cotizacion__head">
+        <span class="section-tag section-tag--inv">Solicitar cotización</span>
+        <h2>Cuéntanos qué necesitas<br><em>Te respondemos en 24–48 horas</em></h2>
+        <p>Sin compromiso. Describe el trabajo y te enviamos un presupuesto con tiempo de entrega.</p>
+      </div>
+
+      <div class="cotizacion__contacto">
+        <div class="cotizacion__contact">
+          <div class="contact-item">
+            <span class="contact-item__label">Teléfono</span>
+            <a href="tel:+56983612393" class="contact-item__val">+56 9 8361 2393</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__label">Email</span>
+            <a href="mailto:leo.orellana@creacort.cl" class="contact-item__val">leo.orellana@creacort.cl</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-item__label">Dirección</span>
+            <span class="contact-item__val">Eyzaguirre 1675, Local 1, San Bernardo</span>
+          </div>
+        </div>
+        <a href="https://wa.me/56983612393" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+          Escribir por WhatsApp
+        </a>
+      </div>
+
+      <div class="cotizacion__form-wrap">
+        <!-- Orden 2/10: obligatorios primero, opcionales al final y lado a lado
+             (menos alto en mobile). Se marcan los opcionales, no los obligatorios. -->
+        <form class="form" id="form-cotizacion" novalidate>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="f-nombre" class="form__label">Nombre</label>
+              <input type="text" id="f-nombre" name="nombre" class="form__input" required autocomplete="name">
+            </div>
+            <div class="form__field">
+              <label for="f-email" class="form__label">Email</label>
+              <input type="email" id="f-email" name="email" class="form__input" required autocomplete="email" inputmode="email" placeholder="tu@empresa.cl">
+            </div>
+          </div>
+          <div class="form__field">
+            <label for="f-servicio" class="form__label">¿Qué necesitas?</label>
+            <select id="f-servicio" name="servicio" class="form__select" required>
+              <option value="">Selecciona un servicio</option>
+              <option value="fabricacion">Fabricación HM y HSS</option>
+              <option value="reparacion">Reparación</option>
+              <option value="afilado">Afilado de precisión</option>
+              <option value="fabricacion-cnc">Fabricación CNC</option>
+              <option value="especial">Herramienta especial a medida</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form__field">
+            <label for="f-mensaje" class="form__label">Describe tu necesidad</label>
+            <textarea id="f-mensaje" name="mensaje" class="form__textarea" rows="4" required
+              placeholder="Tipo de herramienta, medidas, material, cantidad y plazo"></textarea>
+          </div>
+          <div class="form__row form__row--opt">
+            <div class="form__field">
+              <label for="f-empresa" class="form__label">Empresa <span class="form__opt">(opcional)</span></label>
+              <input type="text" id="f-empresa" name="empresa" class="form__input" autocomplete="organization">
+            </div>
+            <div class="form__field">
+              <label for="f-telefono" class="form__label">Teléfono <span class="form__opt">(opcional)</span></label>
+              <input type="tel" id="f-telefono" name="telefono" class="form__input" autocomplete="tel" inputmode="tel" placeholder="+56 9…">
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar solicitud</button>
+          <p class="form__note">Te respondemos en 24–48 horas hábiles.</p>
+        </form>
+        <div class="form__success" id="form-success" hidden>
+          <span class="form__success-icon" aria-hidden="true">✓</span>
+          <h3>Solicitud enviada</h3>
+          <p>Recibimos tu mensaje. Te contactaremos en 24–48 horas hábiles.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer section--dark">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/images/creacort-wordmark.png" alt="Creacort Herramientas" class="footer__logo-img" width="1314" height="187" loading="lazy">
+        <p class="footer__tagline">Fabricación, reparación y afilado de herramientas de corte. Desde 1988.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Navegación del pie de página">
+        <ul role="list">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#maquinas">Máquinas</a></li>
+          <li><a href="#cotizacion">Solicitar cotización</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <a href="tel:+56983612393">+56 9 8361 2393</a>
+        <a href="mailto:leo.orellana@creacort.cl">leo.orellana@creacort.cl</a>
+        <span>Eyzaguirre 1675, Local 1</span>
+        <span>San Bernardo, Santiago</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Creacort. Todos los derechos reservados.</span>
+      <span class="footer__credit">Desarrollado por <a href="https://olivacraft.com" target="_blank" rel="noopener">Olivacraft</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ WHATSAPP FLOTANTE ══ -->
+<a href="https://wa.me/56983612393" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
